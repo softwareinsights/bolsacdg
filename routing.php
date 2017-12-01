@@ -17,17 +17,26 @@
       $title="Regístrate en el sistema";
       $description="sfsdfsdfsdfsdfsdfsdf";
       # code...
-
-      case 'perfil-empresa':
-        $title="Ve tu perfil";
-        $description="sfsdfsdfsdfsdfsdfsdf";
-        # code...
-
-        case 'Perfil':
-          $title="Ve tu perfil";
-          $description="sfsdfsdfsdfsdfsdfsdf";
-          # code...
-
+    break;
+    case 'perfil-empresa':
+      $title="Ve tu perfil";
+      $description="sfsdfsdfsdfsdfsdfsdf";
+      # code...
+    break;
+    case 'perfil':
+      $title="Ve tu perfil";
+      $description="sfsdfsdfsdfsdfsdfsdf";
+      # code...
+    break;
+    case 'registro-empresa':
+      $title="Ve tu perfil";
+      $description="sfsdfsdfsdfsdfsdfsdf";
+      # code...
+      break;
+    case 'alta-empleo':
+      $title="Ve tu perfil";
+      $description="sfsdfsdfsdfsdfsdfsdf";
+      # code...
     break;
 
     default:

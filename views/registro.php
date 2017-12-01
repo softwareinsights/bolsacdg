@@ -13,7 +13,7 @@
         <label for="inputpassword" class="sr-only">Contraseña</label>
         <input type="password" id="inputpassword" class="form-control" placeholder="Contraseña" required autofocus>
         <label for="inputcpassword" class="sr-only">Confirmar Contraseña</label>
-        <input type="email" id="cpassword" class="form-control" placeholder="Confirmar Contraseña" required autofocus>
+        <input type="password" id="cpassword" class="form-control" placeholder="Confirmar Contraseña" required autofocus>
         <div class="checkbox">
           <label>
             <input name="estudiante" type="radio"> Estudiante

@@ -42,11 +42,11 @@
                   <a class="dropdown-item" href="<?php echo APP_PATH;?>perfil">Perfil</a>
                   <a class="dropdown-item" href="<?php echo APP_PATH;?>perfil-empresa">Perfil empresa</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="<?php echo APP_PATH;?>alta-empleo">Empleos</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+              
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
