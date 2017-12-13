@@ -13,7 +13,7 @@ session_start();
           if(count($resultado)>=1){
             if($resultado[0]['password']=== $_POST['password']){
 
-              $_SERVER['iduser'] = $resultado[0]['idusuario']
+              $_SERVER['iduser'] = $resultado[0]['idusuario'];
               ?>
 
             <script type="text/javascript">
