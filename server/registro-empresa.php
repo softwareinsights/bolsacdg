@@ -6,7 +6,7 @@
 
 
         #Reistrar Usuario
-        $query = "INSERT INTO usuario (idusuario, nombre, email, password, direccion, descripcion, tipo) VALUES (NULL, '".$_POST['nombre']."', '".$_POST['email']."', '".$_POST['password']."', '".$_POST['direccion']."', '".$_POST['descripcion']."', 'EMPRESA');";
+        $query = "INSERT INTO usuario (idusuario, nombre, email, password, direccion, descripcion, tipo, ciudad_idciudad) VALUES (NULL, '".$_POST['nombre']."', '".$_POST['email']."', '".$_POST['password']."', '".$_POST['direccion']."', '".$_POST['descripcion']."', 'EMPRESA','".$_POST['idciudad']."');";
         $db->exec($query);
 
         $lastInsert= $db->lastInsertId();
