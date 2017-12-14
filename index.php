@@ -1,4 +1,4 @@
-<?php
+[_<?php
   include_once "config.php";
   include_once "routing.php";
 ?>
@@ -32,11 +32,11 @@
                 <a class="nav-link" href="<?php echo APP_PATH;?>acceso">Acceso <span class="sr-only">(current)</span></a> <!--href es para insertar el link-->
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Registro</a>
+                <a class="nav-link" href="<?php echo APP_PATH;?>registro-empresa">Registro Empresa</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Menu
+                  Menú
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="<?php echo APP_PATH;?>perfil">Perfil</a>
